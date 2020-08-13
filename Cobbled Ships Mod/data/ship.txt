@@ -1,0 +1,48 @@
+ship "Space Treader"
+	sprite "ship/space-treader.png"
+	thumbnail "thumbnail/aerie"
+	attributes
+		category "Light Freighter"
+		"cost" 880000
+		"shields" 1750
+		"hull" 2250
+		"required crew" 2
+		"bunks" 6
+		"mass" 105
+		"drag" 4.1
+		"heat dissipation" .8
+		"fuel capacity" 500
+		"cargo space" 75
+		"outfit space" 250
+		"weapon capacity" 60
+		"engine capacity" 80
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Energy Blaster"
+		"Laser Turret"
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	gun 0 -91.5
+	turret 0 -80.5
+	engine 44.5 92.5
+	engine -44.5 92.5
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "The Lionheart Aerie is a light carrier, designed to be just big enough for two fighter bays plus a decent armament of its own. Variations on this same ship design have been in use in the Deep for almost half a millennium, but this model comes with the very latest in generator and weapon technology."
