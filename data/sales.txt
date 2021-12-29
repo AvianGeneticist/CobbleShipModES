@@ -1,0 +1,103 @@
+shipyard "Basic Ships"
+	"Space Treader"
+	"Matriarch"
+	"Light Anti-Missile Drone"
+	
+shipyard "Advanced Core Pirates"
+	"Hackney Warship"
+	
+shipyard "Advanced Southern Pirates"
+	"Hackney Warship"
+	"Hackney Cargo Carrier"
+
+shipyard "Betelgeuse Advanced"
+	"Mammoth"
+	
+shipyard "Syndicate Advanced"
+	"Repeller"
+	"Syndicate Freight Train"
+	"Bumblebee"
+	"Heavy Anti-Missile Drone"
+	
+shipyard "Navy Basics"
+	"Heavy Anti-Missile Drone"
+	
+outfitter "Basic Outfits"
+	"Small External Expansion"
+	"Hull Plate"
+	
+outfitter "Basic Weapons"
+	"Blaster Battery"
+	
+outfitter "Common Outfits"
+	"Blaster Battery"
+
+outfitter "Common Outfits"
+	"Weapons Expansion"
+	"Engines Expansion"
+	"Small External Expansion"
+	"External Expansion"
+	"Large External Expansion"
+	"C12-UY Secondary Shield Matrix"
+	"C22-NZ Secondary Shield Matrix"
+	"Ancillary Shield System"
+	"AI Terminal"
+	"AI Core"
+	"AI Mainframe"
+	"Hull Plate"
+	"Bulkhead"
+	"External Radiator Array"
+	
+outfitter "Deep Sky Advanced"
+	"AE-4 Thermocouple Array"
+	
+outfitter "Delta V Advanced"
+	"Heavy Rocket Turret"
+	
+outfitter "Lovelace Basics"
+	"nISC-BB Power Cell"
+	
+outfitter "Lovelace Advanced"
+	"C07-HX Shield Projector"
+	"Magnet Bomb"
+	"Magnet Surge"
+
+outfitter "Syndicate Basics"
+	"Vulcan Blaster"
+	"External Repair Arm"
+
+outfitter "Syndicate Advanced"
+	"Vulcan Blaster"
+	"Vulcan Blaster Turret"
+	"External Repair Arm"
+	"Syndicate License"
+	
+outfitter "Kraz Advanced"
+	"Precision Anti-Missile Turret"
+	
+outfitter "Pirate Outfits"
+	"Anti-Scan Plate"
+	
+outfitter "Hai Basics"
+	"Hai Cotton Shield Dynamo"
+	"Hai Felt Shield Dynamo"
+	"Weapons Expansion"
+	"Engines Expansion"
+
+outfitter "Hai Intermediate"
+	"Hai Cotton Shield Dynamo"
+	"Hai Felt Shield Dynamo"
+	"Hai Silk Shield Dynamo"
+	"Weapons Expansion"
+	"Engines Expansion"
+	
+outfitter "Hai Advanced"
+	"CMP Generator"
+	"CMP Conduit"
+	"CMP Launcher"
+	"Hai Cotton Shield Dynamo"
+	"Hai Felt Shield Dynamo"
+	"Hai Silk Shield Dynamo"
+	"Hai Fur Shield System"
+	"Weapons Expansion"
+	"Engines Expansion"

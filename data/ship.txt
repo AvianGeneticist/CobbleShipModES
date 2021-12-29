@@ -1,0 +1,660 @@
+ship "Space Treader"
+	sprite "ship/space-treader"
+	thumbnail "thumbnail/aerie"
+	attributes
+		category "Light Freighter"
+		"cost" 480000
+		"shields" 1750
+		"hull" 2250
+		"required crew" 2
+		"bunks" 6
+		"mass" 105
+		"drag" 4.1
+		"heat dissipation" .8
+		"fuel capacity" 400
+		"cargo space" 60
+		"outfit space" 210
+		"weapon capacity" 55
+		"engine capacity" 70
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Energy Blaster"
+		"Laser Turret"
+		
+		"RT-I Radiothermal"
+		"LP036a Battery Pack"
+		"D41-HY Shield Generator"
+		
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Hyperdrive"
+		
+	gun 0 -91.5
+	turret 0 -80.5
+	engine 44.5 92.5
+	engine -44.5 92.5
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "On a graveyard planet, this ship was cobbled together by a town of scrappy folk and was gifted to their first licensed pilot. Though the original colour is lost to the ages, this remake of that classic beast sports the same raw durability it had those many years ago."
+
+ship "Bumblebee"
+	plural "Bumblebees"
+	sprite "ship/bumblebee"
+	thumbnail "ship/bumblebee"
+	attributes
+		category "Fighter"
+		"cost" 182000
+		"shields" 2050
+		"hull" 675
+		"required crew" 2
+		"bunks" 2
+		"mass" 62
+		"cargo space" 10
+		"drag" 1.2
+		"heat dissipation" .4
+		"outfit space" 175
+		"weapon capacity" 58
+		"engine capacity" 36
+		weapon
+			"blast radius" 22
+			"shield damage" 220
+			"hull damage" 95
+			"hit force" 280
+	outfits
+		"Heavy Laser"
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+		
+		"nGVF-CC Fuel Cell"
+		"LP036a Battery Pack"
+		"D23-QP Shield Generator"
+		"Cooling Ducts"
+		"Small Radar Jammer"
+		
+		"X1700 Ion Thruster"
+		"X2200 Ion Steering"
+		
+	gun 0 -36
+	gun -21 -9
+	gun 19 -10
+	engine -7 35
+		zoom 0.5
+	engine 7 34.5
+		zoom 0.5
+	leak "flame" 60 80
+	explode "tiny explosion" 15
+	explode "small explosion" 5
+	description "Unlike most other ships, fighters have an upper limit to what sizes they can reach, as carrier bays are standardized in size across human space. The Bumblebee manages to squeeze around these constraints by being as boxy as possible, with its wings able to retract into the main body of the ship during docking to facilitate some amount of elegance."
+	description "That said, the Bumblebee is the largest recorded fighter in human history, capable of taking on some classes of light warships thanks to its heavier armament and more developed shield matrix. It even sports a miniscule amount of cargo space, thanks to the main access shaft doubling as a storage compartment. Compared to other fighters, however, it is considered rather slow, and it suffers from poor heat dissipation."
+	
+ship "Mammoth"
+	sprite "ship/mammoth"
+	thumbnail "ship/thumbmammoth"
+	attributes
+		category "Heavy Freighter"
+		"cost" 17000000
+		"shields" 28750
+		"hull" 9500
+		"required crew" 28
+		"bunks" 62
+		"mass" 800
+		"drag" 16.1
+		"heat dissipation" .3
+		"fuel capacity" 800
+		"cargo space" 910
+		"outfit space" 955
+		"weapon capacity" 360
+		"engine capacity" 120
+		weapon
+			"blast radius" 95
+			"shield damage" 1200
+			"hull damage" 1600
+			"hit force" 2500
+	outfits
+		"Heavy Anti-Missile Turret" 4
+		"Heavy Laser Turret" 4
+		
+		"Fusion Reactor"
+		"LP288a Battery Pack"
+		"D94-YV Shield Generator" 1
+		
+		"Liquid Helium Cooler"
+		"Large Radar Jammer"
+		
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering" 1
+		"Scram Drive"
+		
+	engine -75 137.5
+		zoom 1
+		angle 0
+		under
+	engine 75 137.5
+		zoom 1
+		angle 0
+		under
+	engine -30.5 190.5
+		zoom 1
+		angle 0
+		under
+	engine 30.5 190.5
+		zoom 1
+		angle 0
+		under
+	gun 0 -194
+	gun -23.5 -126
+	gun 23.5 -126
+	turret -31.5 -109
+	turret 31.5 -109
+	turret -57 -28.5
+	turret 57 -28.5
+	turret -103 72.5
+	turret 103 72.5
+	turret -50 72.5
+	turret 50 72.5
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "Not to be outdone by the Syndicate, Betelgeuse shipyards began designing an upgrade to their perennial classic ship, the Behemoth. In the end, they produced one of the most powerful ships in human space, its massive armament tempered only by its lackluster weapon capacity. That, and its prohibitively massive cost."
+
+ship "Matriarch"
+	sprite "ship/matriarch"
+	thumbnail "ship/thumbmatriarch"
+	attributes
+		category "Transport"
+		"cost" 17000000
+		"shields" 34500
+		"hull" 5500
+		"required crew" 79
+		"bunks" 348
+		"mass" 934
+		"drag" 7.1
+		"heat dissipation" .6
+		"fuel capacity" 800
+		"cargo space" 495
+		"outfit space" 715
+		"weapon capacity" 185
+		"engine capacity" 315
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator" 2
+		"Luxury Accommodations"
+		"Brig"
+		
+		"X4700 Ion Thruster"
+		"X5200 Ion Steering"
+		"Hyperdrive"
+		
+	turret -72.5 -77
+	turret 75.5 -79
+	turret -73 15.5
+	turret 75.5 40
+	fighter -95 -54
+	fighter -87.5 -44
+	fighter -94 -31.5
+	fighter -88 -20.5
+	fighter -94 -9.5
+	fighter 92.5 -54.5
+	fighter 87.5 -43
+	fighter 95.5 -34
+	fighter 90.5 -23
+	fighter 98 -9
+	fighter 89 3
+	fighter 95.5 12
+	engine -62.5 197.5
+		zoom 1
+		angle 0
+		under
+	engine -39.5 197.5
+		zoom 1
+		angle 0
+		under
+	engine -16.5 197
+		zoom 1
+		angle 0
+		under
+	engine 19.5 197.5
+		zoom 1
+		angle 0
+		under
+	engine 43.5 198
+		zoom 1
+		angle 0
+		under
+	engine 66.5 197.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 50 50
+	leak "flame" 50 80
+	leak "big leak" 90 30
+	explode "tiny explosion" 10
+	explode "small explosion" 25
+	explode "medium explosion" 25
+	explode "large explosion" 10
+	"final explode" "final explosion medium"
+	description "A gargantuan ship, designed not for direct combat, but instead housing and protecting a massive squadron of fighters. With extremely powerful shields to hold warships off as its fighter complement takes them apart, it is quite formidible."
+	description "Their formidable fighter complement and extremely powerful shields make them a popular transport vessel for all sorts of high-profile individuals: Both big celebrities and big criminals."
+
+ship "Hackney Warship"
+	sprite "ship/hackneywarship"
+	thumbnail "ship/hackneywarship"
+	attributes
+		category "Heavy Warship"
+		"cost" 10800000
+		"shields" 20400
+		"hull" 3800
+		"required crew" 52
+		"bunks" 162
+		"mass" 500
+		"drag" 12.8
+		"heat dissipation" .3
+		"fuel capacity" 600
+		"cargo space" 65
+		"outfit space" 790
+		"weapon capacity" 475
+		"engine capacity" 220
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Proton Gun" 4
+		"Plasma Cannon"
+		"Heavy Laser" 2
+		"Javelin Pod"
+		"Meteor Missile Launcher" 2
+		"Quad Blaster Turret" 1
+		"Anti-Missile Turret" 2
+		
+		"RT-I Radiothermal"
+		"Fission Reactor"
+		"nGVF-AA Fuel Cell"
+		"LP288a Battery Pack"
+		"LP144a Battery Pack" 2
+		"Supercapacitor"
+		"D23-QP Shield Generator" 2
+		"D14-RN Shield Generator"
+		"Cooling Ducts"
+		"Water Coolant System" 2
+		"Liquid Nitrogen Cooler"
+		"Brig"
+		"Interference Plating"
+		"Laser Rifle" 15
+		
+		"X1050 Ion Engines"
+		"X2700 Ion Thruster"
+		"X2200 Ion Steering"
+		"Impala Plasma Steering"
+		"Hyperdrive"
+		
+	engine -24 60.5
+		zoom 1
+		angle 0
+		over
+	engine -25.5 121.5
+		zoom 1
+		angle 0
+		under
+	engine -14.5 121
+		zoom 1
+		angle 0
+		under
+	engine 41.5 77
+		zoom 1
+		angle 0
+		under
+	engine 14.5 122
+		zoom 1
+		angle 0
+		under
+	engine 24 122
+		zoom 1
+		angle 0
+		under
+	engine 30.5 77.5
+		zoom 1
+		angle 0
+		over
+	gun -44 -34.5 "Proton Gun"
+	gun -34 -45.5 "Proton Gun"
+	gun -23.5 -54 "Proton Gun"
+	gun -18.5 -66 "Javelin Pod"
+	gun 0.5 -116.5 "Proton Gun"
+	gun 26 -62.5 "Heavy Laser"
+	gun 39.5 -44.5 "Plasma Cannon"
+	gun 56.5 26 "Meteor Missile Launcher"
+	gun 20.5 -67.5 "Heavy Laser"
+	gun -34.5 24 "Meteor Missile Launcher"
+	turret -41 -6 "Quad Blaster Turret"
+	turret -20 -15 "Anti-Missile Turret"
+	turret 22 -15.5 "Anti-Missile Turret"
+	fighter -44.5 24.5
+	leak "leak" 50 50
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description `In common pirate slang, a ship that's "hackney" has been assembled, or "hacked", together from the components of multiple ships; usually captured ones. This results in a disjointed ship, typically with a weaker hull than another ship its size, but the customizeability in armament and system capacity is considered worth the concession by pirate outlaws.`
+	description "As hackney ships like this one are often cobbled together from boarded or salvaged ship components, there's typically much room for improvement in their kits."
+
+ship "Hackney Cargo Carrier"
+	sprite "ship/HackneyCargoCarrier"
+	thumbnail "ship/ThumbHackneyCargoCarrier"
+	attributes
+		category "Heavy Warship"
+		"cost" 11200000
+		"shields" 22400
+		"hull" 5025
+		"required crew" 108
+		"bunks" 207
+		"mass" 917
+		"drag" 23.7
+		"heat dissipation" .35
+		"fuel capacity" 900
+		"cargo space" 425
+		"outfit space" 835
+		"weapon capacity" 395
+		"engine capacity" 210
+		weapon
+			"blast radius" 300
+			"shield damage" 3200
+			"hull damage" 1575
+			"hit force" 4600
+	outfits
+		"Particle Cannon"
+		"Proton Gun" 2
+		"Heavy Rocket Launcher" 3
+		"Heavy Rocket" 70
+		"Heavy Rocket Rack"
+		"Heavy Laser Turret" 2
+		"Blaster Turret" 2
+		"Anti-Missile Turret"
+		"Heavy Anti-Missile Turret" 2
+		
+		"Breeder Reactor"
+		"RT-I Radiothermal"
+		"LP072a Battery Pack" 2
+		"Supercapacitor" 6
+		"D94-YV Shield Generator"
+		"Small Radar Jammer" 3
+		"Liquid Nitrogen Cooler"
+		"Cooling Ducts" 3
+		"Laser Rifle" 45
+		"Fragmentation Grenades" 60
+		"Security Station"
+		"Interference Plating" 3
+		
+		"A250 Atomic Thruster"
+		"A255 Atomic Steering"
+		"Orca Plasma Steering"
+		"Afterburner"
+		"Hyperdrive"
+		"Scram Drive"
+		
+	turret -18 -131.5
+	turret -70.5 -126.5
+	turret -92 -74.5
+	turret 32 95
+	turret -41.5 125.5
+	turret 14.5 136.5
+	turret 51.5 136.5
+	gun 32 -178
+	gun 13 -168.5
+	gun 50 -170
+	gun -73 49
+	gun -65 48
+	gun 77 110
+	engine -67.5 173.5
+	engine -12 179
+	engine 77 179.5
+	fighter 79 -88.5
+	fighter 81 -18
+	fighter -39.5 21
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 30 30
+	explode "tiny explosion" 20
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 10
+	"final explode" "final explosion large"
+	description `This hacked-together mess of parts is designed to be a Heavy Freighter-Carrier hybrid, designed to haul a mess of loot across secure space without being shot down by any security forces.`
+	description "Though a bit frail thanks to being cobbled together, a combination of heavy weapons and high cargo space make this ship popular with pirate fleet captains."
+	
+ship "Repeller"
+	sprite "ship/repeller"
+	thumbnail "ship/thumbrepeller"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Syndicate
+		"cost" 10000000
+		"shields" 16000
+		"hull" 9500
+		"required crew" 56
+		"bunks" 118
+		"mass" 980
+		"drag" 11.3
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 940
+		"weapon capacity" 420
+		"engine capacity" 160
+		weapon
+			"blast radius" 280
+			"shield damage" 3000
+			"hull damage" 1200
+			"hit force" 3200
+	outfits
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 8
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor" 2
+		"LP288a Battery Pack"
+		"D67-TM Shield Generator" 2
+		"Small Radar Jammer" 6
+		"Liquid Helium Cooler"
+		"Laser Rifle" 10
+		
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	gun -14.5 -173.5
+	gun 13.5 -174.5
+	turret -52.5 -134.5
+	turret 53 -135.5
+	turret -74.5 -83
+	turret 74.5 -82.5
+	turret -52 -29.5
+	turret 53 -30.5
+	turret -52 16.5
+	turret 53 16.5
+	turret -74 69
+	turret 74.5 68.5
+	turret -52 120.5
+	turret 52.5 121
+	engine -11 190
+	engine 11.5 191
+	leak "leak" 60 50
+	leak "flame" 20 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "With larger merchant convoys capable of fielding heavier armaments without escorts popping up in the galaxy, the Syndicate needed a new edge to continue to push numbers. The result was the Repeller: A ship comprised almost entirely of a pair of Protectors bolted together. The resulting ship is able to contend with even the largest of Navy ships, but requires a costly license to own and operate."
+
+ship "Syndicate Freight Train"
+	sprite "ship/syndicatespacetrain"
+	thumbnail "ship/thumbsyndicatespacetrain"
+	attributes
+		category "Heavy Warship"
+		licenses
+			Syndicate
+		"cost" 18700000
+		"shields" 26500
+		"hull" 16000
+		"required crew" 68
+		"bunks" 204
+		"mass" 1460
+		"drag" 14.3
+		"heat dissipation" .3
+		"fuel capacity" 1200
+		"cargo space" 685
+		"outfit space" 960
+		"weapon capacity" 460
+		"engine capacity" 185
+		weapon
+			"blast radius" 520
+			"shield damage" 5200
+			"hull damage" 1800
+			"hit force" 10400
+	outfits
+		"Proton Gun" 5
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Quad Blaster Turret" 2
+		"Heavy Anti-Missile Turret" 4
+		
+		"Fusion Reactor"
+		"Fission Reactor"
+		"LP576a Battery Pack"
+		"D94-YV Shield Generator"
+		"Large Radar Jammer" 2
+		"Liquid Nitrogen Cooler"
+		"Ramscoop"
+		"Laser Rifle" 25
+		
+		"X4700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Scram Drive"
+		
+	gun 1.5 -315 "Proton Gun"
+	gun -24 -304 "Proton Gun"
+	gun 25.5 -304.5 "Proton Gun"
+	gun -33.5 -216.5 "Sidewinder Missile Launcher"
+	gun -25 -216.5 "Proton Gun"
+	gun 26 -217.5 "Sidewinder Missile Launcher"
+	gun 36.5 -217.5 "Proton Gun"
+	turret 1.5 -131.5 "Heavy Anti-Missile Turret"
+	turret -67.5 100.5 "Heavy Anti-Missile Turret"
+	turret 68.5 100 "Heavy Anti-Missile Turret"
+	turret -95.5 168.5 "Quad Blaster Turret"
+	turret 97 168.5 "Quad Blaster Turret"
+	turret 1.5 -28 "Heavy Anti-Missile Turret"
+	engine -14.5 325.5
+		zoom 1
+		angle 0
+		under
+	engine 14.5 325.5
+		zoom 1
+		angle 0
+		under
+	leak "leak" 60 50
+	leak "flame" 20 80
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description "The Bulk Freighter's design left much to be desired on the fronts of speed and defense, resulting in an overall frail and difficult to use ship that didn't pull in the merchant market like the Syndicate wanted it to. An attempt to make a newer freight model while not requiring decades worth of ship factory space being made resulted in the Freight Train: A monstrosity of a ship combining elements of the Bulk Freighter with the more successful Vanguard and Protector models of spacecraft."
+	description "Though the huge cost is a turn-off for most, the Freight Train's armament and cargo capacity allow it to give even Betelgeuse's Mammoth-class freighter a run for its money."
+	
+ship "Light Anti-Missile Drone"
+	sprite "ship/antimissiledronelight"
+	thumbnail "ship/antimissiledronelight"
+	attributes
+		category "Drone"
+		"cost" 83000
+		"hull" 550
+		"automaton" 1
+		"mass" 16
+		"drag" .46
+		"heat dissipation" .8
+		"outfit space" 56
+		"weapon capacity" 16
+		"engine capacity" 20
+		weapon
+			"blast radius" 5
+			"shield damage" 25
+			"hull damage" 10
+			"hit force" 45
+	outfits
+		"Anti-Missile Turret"
+		
+		"nISC-AA Power Cell"
+		
+		"X1050 Ion Engines"
+		
+	turret 0.5 0
+	engine 0.5 15.5
+	explode "tiny explosion" 15
+	description "In the mess of combat, some captains find combat drones a liability: Weak and easy to destroy, drones don't have an easy time finding a niche in front line combat. However, anti-missile turrets, which also use AI for operation, are a remarkably good fit for automata; able to be strapped onto an easily mobile platorm, a small swarm of anti-missile drones can lock down even large missile systems."
+	description "Unfortunately, the light model is very restrictive; a custom power cell had to be designed just to accomodate using such a powerful gun aboard such a tiny ship, and there was no opportunity to include a shield matrix of any kind. The light model is faster than its heavier brother, though, so some merchants will scrape by with the light model if they expect to be safe from pirates."
+	
+ship "Heavy Anti-Missile Drone"
+	sprite "ship/antimissiledroneheavy"
+	thumbnail "ship/antimissiledroneheavy"
+	attributes
+		category "Drone"
+		"cost" 117000
+		"shields" 325
+		"hull" 600
+		"automaton" 1
+		"mass" 28
+		"drag" .60
+		"heat dissipation" .8
+		"outfit space" 92
+		"weapon capacity" 30
+		"engine capacity" 20
+		weapon
+			"blast radius" 15
+			"shield damage" 65
+			"hull damage" 30
+			"hit force" 95
+	outfits
+		"Heavy Anti-Missile Turret"
+		
+		"nISC-BB Power Cell"
+		"D-05 Shield Generator"
+		
+		"X1050 Ion Engines"
+		
+	turret 0.5 2
+	engine 0.5 22
+	explode "tiny explosion" 15
+	description "The Heavy Anti Missile Drone is a much more sustainable model, at the cost of being much more pricey and a fair bit slower than its lighter cousin. With a MUCH beefier power cell and a larger anti-missile turret, it's much more suited to defending a fleet, while still only taking up a single drone bay."
+	description "Compounding on the model of a sustainable missile defense platform, these drones even have a custom-built tiny shield generator system, able to recharge their small shield matricies after a blaster hit or two."

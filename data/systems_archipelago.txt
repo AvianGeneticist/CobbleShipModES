@@ -1,0 +1,119 @@
+government "Sailor's Asylum"
+	swizzle 5
+	color .1 .2 1
+	
+	"player reputation" 10
+	"attitude toward"
+		"Pirate" -20
+		"Hai" 20
+	"bribe" .05
+	"fine" 0.5
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile civilian"
+	raid "pirate raid"
+
+system Laspir
+	pos -2350 -1947
+	government "Sailor's Asylum"
+	habitable 455.625
+	belt 1927
+	link Lycyone
+	trade Clothing 319
+	trade Electronics 718
+	trade Equipment 391
+	trade Food 162
+	trade "Heavy Metals" 1140
+	trade Industrial 619
+	trade "Luxury Goods" 1074
+	trade Medical 731
+	trade Metal 516
+	trade Plastic 486
+	object "Milkyway-Archipelago Wormhole"
+		sprite planet/wormhole
+		distance 0
+		period 28290.76
+	object
+		sprite star/m0
+		distance 545.14
+		period 30
+	object
+		sprite star/b5
+		distance 545.14
+		period 30
+		offset 120
+	object
+		sprite star/g5
+		distance 545.14
+		period 30
+		offset 240
+	object
+		sprite star/f5-old
+		distance 545.86
+		period 30
+		offset 60
+	object
+		sprite star/f0
+		distance 545.86
+		period 30
+		offset 180
+	object
+		sprite star/a0
+		distance 545.86
+		period 30
+		offset 300
+		
+system Lycyone
+	pos -2329 -1908
+	government "Sailor's Asylum"
+	habitable 455.625
+	belt 1273
+	link Laspir
+	asteroids "large metal" 1 6.7392
+	trade Clothing 357
+	trade Electronics 660
+	trade Equipment 386
+	trade Food 538
+	trade "Heavy Metals" 798
+	trade Industrial 606
+	trade "Luxury Goods" 1078
+	trade Medical 607
+	trade Metal 293
+	trade Plastic 423
+	fleet "Small Southern Merchants" 400
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 5000
+	object
+		sprite star/k0-old
+		period 10
+	object "Aiole Bay"
+		sprite planet/ocean6
+		distance 267.91
+		period 82.175
+		object
+			sprite planet/dust7-b
+			distance 147
+			period 13.5253
+	object
+		sprite planet/ice7
+		distance 579.92
+		period 261.703
+	object
+		sprite planet/callisto-b
+		distance 887.96
+		period 495.845
+	object
+		sprite planet/gas14
+		distance 2108.2
+		period 1813.94
+		object
+			sprite planet/rock0
+			distance 237
+			period 14.0557
+		object
+			sprite planet/luna-b
+			distance 348
+			period 25.0091
+		object
+			sprite planet/dust0
+			distance 497
+			period 42.6838

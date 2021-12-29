@@ -1,0 +1,9 @@
+planet "Aiole Bay"
+	attributes pirate "core pirate" core frontier
+	landscape land/beach0
+	description `Aiole Bay is a warm ocean world with gravity lighter than earth. The landmass here is largely compired of small islands, with only one major continent. Most of the climate is tropical at its coldest, with some of the islands being a sort of wet desert that quickly loses whatever water is rained on it.`
+	spaceport `The spaceport is an interesting mix of traditional fare and absolutely massive "landing barges" placed in the neary warm sea. The high prevalence of ocean worlds in Sailor space means that many of their ships are designed to transition directly from space-to-sea and back again.`
+	security 0
+	tribute 1200
+		threshold 3000
+		fleet "Large Core Pirates" 22
